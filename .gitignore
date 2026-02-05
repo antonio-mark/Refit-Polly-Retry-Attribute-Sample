@@ -1,0 +1,44 @@
+############################
+# Build artifacts
+############################
+bin/
+obj/
+out/
+publish/
+
+############################
+# Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# VS Code
+############################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# NuGet
+############################
+*.nupkg
+*.snupkg
+.nuget/packages/
+
+############################
+# Coverage / tooling
+############################
+coverage/
+*.coverage
+*.coveragexml
